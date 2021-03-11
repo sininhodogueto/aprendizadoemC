@@ -1,0 +1,35 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+void main()
+{
+    int operacao;
+    
+/*ok*/  printf(" + = 0\n - = 1\n x = 2\n / = 3\n Escolha a operação desejada: ");
+        scanf("%d", &operacao);
+    
+/*ok*/  printf("\nAgora insira os números: \n");
+        int num1;
+        int num2;
+        scanf("%d \n %d", &num1, &num2);
+    
+/*ok*/  if (operacao == 0){
+        int res_adicao = num1 + num2;
+        printf("O resultado da adição é: %d", res_adicao);
+    }
+    
+/*ok*/  if (operacao == 1){
+        int res_subtracao = num1 - num2;
+        printf("O resultado da subtração é: %d", res_subtracao);
+    }
+    
+/*ok*/  if(operacao == 2){
+        int res_multiplicacao = num1 * num2;
+        printf("O resultado da multiplicação é: %d", res_multiplicacao);
+    }
+
+/*ok*/    if(operacao == 3){
+        float res_divisao = num1 / num2;
+        printf("O resultado dessa divisão é: %f", res_divisao);
+    }
+}
