@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int num1;
+    int num2;
+
+    scanf("%d" "%d", &num1, &num2);
+
+    int res_soma = num1 + num2;
+    int res_subt = num1 - num2;
+    int res_mult = num1 * num2;
+    int res_div  = num1 / num2;
+
+    printf("----------------------------------------");
+    printf("\nResultado da soma: %d", res_soma);
+    printf("\nResultado da subtracao: %d", res_subt);
+    printf("\nResultado da multplicacao: %d", res_mult);
+    printf("\nResultado da divisao: %d\n", res_div);
+    printf("----------------------------------------\n");
+
+    return 0;
+}
